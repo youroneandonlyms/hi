@@ -1,11 +1,14 @@
 .rainbow {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 
 .color {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,47 +17,41 @@
     text-transform: uppercase;
     cursor: pointer;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .red {
-    background-color: red;
-    color: white;
+    color: red;
     font-family: Arial, sans-serif;
 }
 
 .orange {
-    background-color: orange;
-    color: white;
+    color: orange;
     font-family: Verdana, sans-serif;
 }
 
 .yellow {
-    background-color: yellow;
-    color: black;
+    color: yellow;
     font-family: Impact, sans-serif;
 }
 
 .green {
-    background-color: green;
-    color: white;
+    color: green;
     font-family: Courier, monospace;
 }
 
 .blue {
-    background-color: blue;
-    color: white;
+    color: blue;
     font-family: Georgia, serif;
 }
 
 .indigo {
-    background-color: indigo;
-    color: white;
+    color: indigo;
     font-family: Times New Roman, serif;
 }
 
 .violet {
-    background-color: violet;
-    color: white;
+    color: violet;
     font-family: Comic Sans MS, cursive;
 }
 
